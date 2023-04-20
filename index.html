@@ -61,7 +61,7 @@
             <div class="container">
                 <div class="hero-wrap">
                     <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                    <button type="button" class="button-hero">Order Service</button>
+                    <button type="button" class="button-hero" data-modal-open>Order Service</button>
                 </div>
             </div>
         </section>
@@ -404,6 +404,17 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop">
+        <div class="modal is-hidden" data-modal>
+            <button type="button" data-modal-close class="modal-close-btn">
+                <svg width="8" height="8">
+                    <use href="./images/svg-photo/modal.svg#icon-close-black-modal"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js "></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
