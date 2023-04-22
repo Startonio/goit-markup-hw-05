@@ -712,4 +712,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: auto;
+    fill: var(--color-navigation);
+}
+
+.modal-close-btn:is(:hover, :focus) {
+    background-color: var(--focus-hover);
+    fill: var(--main-title-color);
 }
